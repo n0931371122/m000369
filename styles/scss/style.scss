@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import 'plugins/bootstrap/bootstrap.scss'; 
+@import 'scss/plugins/swiper-bundle.min.css';
+@import 'font/css/fontello.css'; 
+@import 'scss/plugins/vue-select.css'; 
+@import 'scss/plugins/mCustomScrollbar.css'; 
+@import 'scss/plugins/sweetalert2.css'; 
+// config
+@import 'config/_variable.scss';
+@import 'config/_config.scss';
+@import 'config/_fontSize.scss'; 
+// // layouts 
+@import 'layouts/_reset.scss'; 
+
+@import 'layouts/_common.scss'; 
+@import 'layouts/_layouts.scss';
+@import 'layouts/_keyframes.scss';   
+
+@font-face {
+    font-family:"Nobel";
+    src:url("nobel-regular.ttf");
+}
+@font-face {
+    font-family:"LeelawUI";
+    src:url("LeelawUI.ttf");
+}
+
+// pages
+
+@import 'layouts/pages/_index.scss';  

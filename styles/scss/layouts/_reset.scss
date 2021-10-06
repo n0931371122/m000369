@@ -1,0 +1,66 @@
+body{
+	font-family:"Noto Sans TC"; 
+	font-size: 16px;
+}
+
+a{
+	transition: color .3s;
+}
+img{
+	max-width: 100%;
+}
+input,button{
+	outline: 0;
+}
+input{
+	padding: 0;
+	border: 0;
+	background: transparent; 
+}
+textarea{
+	border:0;
+	outline:0;
+}
+button{
+	border:0;
+	background: transparent;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.ns{
+	list-style: none;
+}
+.swiper-button{
+  margin: 0;
+  outline:none;
+  &::after{
+    display: none;
+  }
+}
+.swiper-pagination-bullet{
+  opacity: 1;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: black;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: black;
+}
+
+::-o-placeholder { /* Mozilla Firefox 19+ */
+  color: black;
+}
+
+::-ms-placeholder { /* Internet Explorer 10+ */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: black;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before{
+	width: auto;
+}

@@ -1,0 +1,61 @@
+
+
+
+//36 30 24 22 20 18 17 14 13 12
+
+
+.fz-36{
+  @include fz(36px);
+}
+.fz-30{
+  @include fz(30px);
+}
+.fz-24{
+  @include fz(24px);
+}
+.fz-22{
+  @include fz(22px);
+}
+.fz-20{
+  @include fz(20px);
+}
+.fz-18{
+  @include fz(18px);
+}
+.fz-17{
+  @include fz(17px);
+}
+.fz-14{
+  @include fz(14px);
+}
+.fz-13{
+  @include fz(13px);
+}
+.fz-12 {
+  @include fz(12px);
+}
+
+
+@media (max-width: 767px){
+  .fz-36{
+    @include fz(26px);
+  }
+  .fz-30{
+    @include fz(26px);
+  }
+  .fz-24{
+    @include fz(22px);
+  }
+  .fz-22{
+    @include fz(18px);
+  }
+  .fz-20 {
+    @include fz(18px);
+  }
+  .fz-18{
+    @include fz(16px);
+  }
+  .fz-17{
+    @include fz(16px);
+  }
+}

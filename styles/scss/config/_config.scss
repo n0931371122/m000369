@@ -1,0 +1,180 @@
+//font-family
+.Nobel{
+  font-family: "Nobel";
+}
+.LeelawUI{
+  font-family:"LeelawUI" ;
+}
+.Arial{
+  font-family: "Arial";
+}
+
+//max-width
+.max1500{
+  max-width: 1500px;  
+}
+.max1200{
+  max-width: 1200px;  
+}
+.max460{
+  max-width:460px;  
+}
+
+
+//z-index
+.z-1{
+  z-index: 1;
+}
+.z-2{
+  z-index: 2;
+}
+.z-3{
+  z-index: 3;
+}
+
+//color 相關
+.text-2469C9{
+  color:#2469C9;
+}
+.text-hover-white{
+  transition: all .3s;
+  &:hover{
+    color:white !important;
+  }
+}
+
+//background
+.bg-3DA7AF{
+  background: #3DA7AF;
+}
+.bg-2469C9{
+  background: #2469C9;
+}
+.bg-F6F6F6{
+  background: #F6F6F6;
+}
+.bg-1B4C8F{
+  background: #1B4C8F;
+}
+.bg-hover-3B7EDB{
+  transition: all .3s;
+  &:hover{
+    background: #3077DA !important;
+  }
+}
+.bg-hover-2469C9{
+  transition: all .3s;
+  &:hover{
+    background: #2469C9 !important;
+  }
+}
+.bg-hover-1D1D1D{
+  transition: all .3s;
+  &:hover{
+    background: #1D1D1D !important;
+  }
+}
+
+// width
+.w180{
+  width: 180px;
+}
+.w150{
+  width: 150px;
+}
+.w130{
+  width: 130px;
+}
+.w50{
+  width: 50px;
+  @media(max-width:992px){
+    width: 40px;
+  }
+}
+.w45{
+  width: 45px;
+}
+.w35{
+  width: 35px;
+}
+
+// height
+.h130{
+  height: 130px;
+}
+.h45{
+  height: 45px;
+}
+.h50{
+  height: 50px;
+  @media(max-width:992px){
+    height: 40px;
+  }
+}
+.h40{
+  height: 40px;
+}
+.h35{
+  height: 35px; 
+}
+
+// border
+.border-bottom-2469C9{
+  border-bottom:1px solid #2469C9;
+}
+
+//border-radius
+.rounded-10{  
+  border-radius:10px; 
+}
+.rounded-30{ 
+  border-radius:30px;
+}
+
+//position
+.position-xxl-absolute{
+  @media(min-width:1400px){
+    position: absolute !important;
+  }
+}
+.position-lg-absolute{
+  @media(min-width:992px){
+    position: absolute !important;
+  }
+}
+
+//letter-spacing
+.les1{
+  letter-spacing: 1px;
+}
+
+//限制行數
+.line1{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.line2{
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//flex置中
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+//other
+.background-cover{
+  background-size: cover;
+  background-position: center;
+}
+.fw-500{
+  font-weight: 500;
+}
